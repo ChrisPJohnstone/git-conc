@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/ChrisPJohnstone/git-conc/compare/v2.1.0...v2.1.1) (2026-11-11)
+
+
+### Bug Fixes
+
+* added git subdir detection ([#53](https://github.com/ChrisPJohnstone/git-conc/issues/53)) ([4b0ddc2](https://github.com/ChrisPJohnstone/git-conc/commit/4b0ddc2b1c666682a4080d8887f217da1d63448a))
+
 ## [2.1.0](https://github.com/ChrisPJohnstone/git-conc/compare/v2.0.0...v2.1.0) (2026-10-29)
 
 
