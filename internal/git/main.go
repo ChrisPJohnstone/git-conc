@@ -11,7 +11,9 @@ import (
 )
 
 func gitRepo() (*git.Repository, error) {
-	repo, err := git.PlainOpen(".")
+	repo, err := git.PlainOpenWithOptions(".", &git.PlainOpenOptions{
+		DetectDotGit: true,
+	})
 	if err != nil {
 		return nil, err
 	}
